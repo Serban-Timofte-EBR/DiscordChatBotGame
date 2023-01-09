@@ -13,7 +13,7 @@ def after_battle(user, bot, userOption, botOption):
 '''Define a function which compares played cards ( user and bot inputs ) and if they played the same element,
 the function will compare the value associated with the card. The line comments will indicated the places
 were we analize the player input! At every end of a round, the winner will receive a point.'''
-def competition(user, bot, userOption, botOption):
+def competition(user, bot, userOption, botOption):    #target: redesign this function
  if userOption.element == "fire":                                   #User played fire
   if botOption.element == "fire":
    if userOption.value > botOption.value:
