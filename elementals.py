@@ -105,7 +105,6 @@ def game(max_points):
    print("User " + str(player.points) + " vs. Bot " + str(bot.points))
    print("*********************\n")
 
-'''In this section I just present the winner using if statement ( my part )'''
   if player.points < bot.points:
    print("The player is a machine, so it is able to make better calculations! Train yourself and come bacK!")
    print("Do not let a robot to be better than you!")
